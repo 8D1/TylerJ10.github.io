@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Color Changing Gradient Background</title>
+  <style>
+    body {
+      background: linear-gradient(120deg, #f6d365, #fda085, #f6d365);
+      background-size: 1200% 1200%;
+      animation: GradientBG 15s ease-in-out infinite;
+    }
+
+    @keyframes GradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h1,
+    p {
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Color changing gradient background</h1>
+  <p>This is an example of a website with a color changing gradient background.</p>
+</body>
+
+</html>
